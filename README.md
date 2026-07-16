@@ -1,6 +1,6 @@
 # scientific-python-math-projects
 
-### scientific Python and Mathematics Projects
+### scientific python and mathematics projects
 
 - Calculus I
 - Calculus II
