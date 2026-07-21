@@ -1,124 +1,21 @@
 # Scientific Projects
 
-A collection of Python projects exploring scientific computing, mathematics, statistics, data analysis, signal processing, machine learning, and visualization. Each project focuses on a different scientific concept and is implemented using Python, NumPy, Matplotlib, and other scientific libraries.
-
-## Projects
-
-### Project 1: Animations
-Explore mathematical and scientific concepts through interactive animations and visualizations built with Python. This project demonstrates how animation can make abstract concepts easier to understand.
-
-**Topics**
-- Mathematical visualization
-- Scientific animations
-- NumPy
-- Matplotlib
-
-📁 **Folder:** `animations/`
+A collection of Python projects exploring scientific computing, mathematics, statistics, data analysis, signal processing, machine learning, and visualization.
 
 <p align="center">
-  <img src="animations/MobiusTransformAnimation.gif" alt="Animation Demo" width="700">
+  <img src="animations/MobiusTransformAnimation.gif" alt="Möbius transform animation" width="600">
 </p>
 
----
+- [Animations](animations/) — Matplotlib and Plotly animations of Morlet wavelets, a Möbius transformation of the complex plane, and a "wandering prime" walk built from prime-number gaps
+- [Data Curve Fitting](DataCurveFitting/) — fitting Gaussian, exponential-decay, sigmoid, and composite models to noisy data with `lmfit`, plus 2D circle-fitting on x/y coordinates
+- [Awesome Math Stuff](awesomeMathStuff/) — Pascal's triangle, Euler's identity in polar vs. rectangular form, parameterized Gaussians, relativistic time dilation at different speeds, and eigenvalues of random matrices
+- [Clustering](clustering/) — z-normalizing and covariance analysis of UCI cloud data, dimensionality reduction with PCA, and clustering with t-SNE + k-means, including a smoothed 2D density plot
+- [Colorful Rainbow of Noise](colorfulRainbowOfNoise/) — generating white, brown, pink, and blue noise, comparing them in the time and frequency domains via FFT, and listening to each as audio
+- [Cryptocurrency Investing](cryptoInvesting/) — pulling historical crypto price data, PCA on multi-coin price series, and simulating several dollar-cost-averaging strategies to compare outcomes
+- [Denoising Signals](denoisingSignals/) — running-mean filtering, Gaussian convolution smoothing, median (despeckling) filters for spike noise, and applying these to real EKG signal data
+- [Descriptive Statistics Without NumPy](descriptivesWithoutNumpy/) — implementing mean, median, mode, and standard deviation from scratch in plain Python, with a CSV report generator
+- [Entropy of English](entropyEnglish/) — scraping a Project Gutenberg text, analyzing word-length and letter-frequency distributions, and computing letter entropy and conditional (lag-1) entropy
 
-### Project 2: Data Curve Fitting
-Learn how mathematical models can be fitted to real-world data using regression and optimization techniques.
+Each folder is self-contained and can be explored independently.
 
-**Topics**
-- Curve fitting
-- Regression
-- Scientific computing
-
-📁 **Folder:** `DataCurveFitting/`
-
----
-
-### Project 3: Awesome Math Stuff
-A collection of interesting mathematical experiments, visualizations, and computational techniques implemented in Python.
-
-**Topics**
-- Mathematics
-- Numerical methods
-- Visualization
-
-📁 **Folder:** `awesomeMathStuff/`
-
----
-
-### Project 4: Clustering
-Implement clustering algorithms to discover patterns and group similar observations within datasets.
-
-**Topics**
-- Machine Learning
-- Clustering
-- Data Analysis
-
-📁 **Folder:** `clustering/`
-
----
-
-### Project 5: Colorful Rainbow of Noise
-Explore different types of noise and visualize their characteristics in both the time and frequency domains.
-
-**Topics**
-- Signal processing
-- Noise analysis
-- Fourier analysis
-
-📁 **Folder:** `colorfulRainbowOfNoise/`
-
----
-
-### Project 6: Cryptocurrency Investing
-Analyze cryptocurrency data using Python and perform basic financial and statistical analysis.
-
-**Topics**
-- Financial analysis
-- Time series
-- Data visualization
-
-📁 **Folder:** `cryptoInvesting/`
-
----
-
-### Project 7: Denoising Signals
-Learn techniques for removing unwanted noise from signals using digital signal processing methods.
-
-**Topics**
-- Signal processing
-- Noise reduction
-- Fourier Transform
-
-📁 **Folder:** `denoisingSignals/`
-
----
-
-### Project 8: Descriptive Statistics Without NumPy
-Implement common descriptive statistics from scratch to understand the mathematics behind statistical calculations.
-
-**Topics**
-- Mean
-- Median
-- Variance
-- Standard deviation
-- Statistics
-
-📁 **Folder:** `descriptivesWithoutNumpy/`
-
----
-
-### Project 9: Entropy of English
-Explore information theory by measuring the entropy of English text and analyzing language from a statistical perspective.
-
-**Topics**
-- Information theory
-- Entropy
-- Probability
-
-📁 **Folder:** `entropyEnglish/`
-
----
-
-## More Projects
-
-This repository is continuously updated with new scientific computing projects. Each project is self-contained and can be explored independently by visiting its corresponding folder.
+https://github.com/jpstayfocus/scientific-projects-py
