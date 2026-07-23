@@ -1,152 +1,192 @@
-# Scientific Projects
+# Scientific Projects in Python
 
-A collection of Python projects exploring scientific computing through mathematics, statistics, machine learning, signal processing, and data visualization. Each project combines theoretical concepts with practical implementations using the Scientific Python ecosystem, including NumPy, SciPy, Matplotlib, Plotly, and scikit-learn.
+A portfolio of hands-on notebooks exploring scientific computing, applied mathematics, probability, statistics, machine learning, signal processing, computational neuroscience, and scientific visualization.
+
+The notebooks emphasize learning through implementation: simulating data, deriving or coding algorithms, testing scientific ideas, and visualizing the results with Python.
 
 <p align="center">
-  <img src="animations/MobiusTransformAnimation.gif" alt="Möbius Transformation Animation" width="600">
+  <img src="animations/MobiusTransformAnimation.gif" alt="Animated Möbius transformation" width="600">
 </p>
 
-Each project is self-contained and can be explored independently by opening the corresponding folder.
+## Project Areas
 
-## Contents
-
-- [Animations](#animations)
-- [Data Curve Fitting](#data-curve-fitting)
-- [Awesome Math Stuff](#awesome-math-stuff)
-- [Clustering](#clustering)
-- [Colorful Rainbow of Noise](#colorful-rainbow-of-noise)
-- [Cryptocurrency Investing](#cryptocurrency-investing)
-- [Denoising Signals](#denoising-signals)
-- [Descriptive Statistics Without NumPy](#descriptive-statistics-without-numpy)
-- [Entropy of English](#entropy-of-english)
+- [Probability and Statistics](#probability-and-statistics)
+- [Applied Mathematics and Optimization](#applied-mathematics-and-optimization)
+- [Machine Learning and Data Analysis](#machine-learning-and-data-analysis)
+- [Signal Processing](#signal-processing)
+- [Dynamical Systems and Neuroscience](#dynamical-systems-and-neuroscience)
+- [Scientific Visualization and Python Practice](#scientific-visualization-and-python-practice)
 
 ---
 
-## Animations
+## Probability and Statistics
 
-📁 `animations/`
+### [Law of Large Numbers](LawLargeNumbers/MasPy_LawLargeNumbers.ipynb)
 
-Explore mathematical concepts through interactive animations and visualizations, including wavelets, Möbius transformations, and prime number patterns.
+Uses Monte Carlo sampling and cumulative averaging to demonstrate how sample estimates converge toward a population mean.
 
-**Highlights**
-- Complex Morlet wavelets
-- Möbius transformations
-- Prime number visualization
+**Topics:** random populations, repeated sampling, Monte Carlo simulation, statistical convergence
 
----
+### [Statistics](statistics/MasPy_statistics.ipynb)
 
-## Data Curve Fitting
+Applies inferential and predictive statistics to the UCI red-wine-quality dataset.
 
-📁 `DataCurveFitting/`
+**Topics:** exploratory analysis, independent-samples t-test, multiple regression, logistic regression, Gaussian transformations
 
-Learn how mathematical models can be fitted to noisy data using regression and optimization techniques.
+### [Descriptive Statistics Without NumPy](descriptivesWithoutNumpy/MasPy_descriptivesWithoutNumpy.ipynb)
 
-**Highlights**
-- Gaussian fitting
-- Exponential fitting
-- Sigmoid models
-- Multivariate curve fitting
+Implements core descriptive statistics manually and compares the results with established library functions.
 
----
+**Topics:** mean, median, frequency tables, mode, standard deviation, CSV reporting
 
-## Awesome Math Stuff
+### [Entropy of Written English](entropyEnglish/MasPy_EntropyEnglish.ipynb)
 
-📁 `awesomeMathStuff/`
+Analyzes public-domain English text through word-length distributions, letter frequencies, Shannon entropy, and conditional sequence entropy.
 
-A collection of mathematical experiments and visualizations covering topics from linear algebra to special relativity.
-
-**Highlights**
-- Pascal's Triangle
-- Euler's Identity
-- Gaussian functions
-- Eigenvalues
-- Time dilation
+**Topics:** information theory, probability distributions, Shannon entropy, conditional entropy, text analysis, word clouds
 
 ---
 
-## Clustering
+## Applied Mathematics and Optimization
 
-📁 `clustering/`
+### [Data Curve Fitting](DataCurveFitting/MasPy_DataCurveFitting.ipynb)
 
-Apply dimensionality reduction and clustering techniques to discover patterns in real-world datasets.
+Fits mathematical models to noisy data with `lmfit`, including built-in and user-defined models.
 
-**Highlights**
-- PCA
-- t-SNE
-- K-Means
-- Covariance analysis
+**Topics:** Gaussian fitting, exponential decay, sigmoid fitting, composite models, multivariate fitting, goodness of fit
 
----
+### [Interpolation and Extrapolation](interpolationExtrapolation/MasPy_InterpExtrap.ipynb)
 
-## Colorful Rainbow of Noise
+Explores resampling, interpolation, extrapolation, and the reconstruction of missing image data.
 
-📁 `colorfulRainbowOfNoise/`
+**Topics:** downsampling, upsampling, one-dimensional interpolation, extrapolation, image repair, geometric visualization
 
-Generate and analyze different colors of noise while exploring their frequency-domain characteristics.
+### [Local Minimum via Gradient Descent](localMinGradDescent/MasPy_localMinGradientDescent.ipynb)
 
-**Highlights**
-- White noise
-- Pink noise
-- Brown noise
-- Blue noise
-- FFT analysis
+Builds and visualizes gradient descent in one and two dimensions, including symbolic derivatives and optimization trajectories.
 
----
+**Topics:** derivatives, learning rates, stopping criteria, local minima, two-dimensional optimization, 3D visualization
 
-## Cryptocurrency Investing
+### [Awesome Math Stuff](awesomeMathStuff/MasPy_awesomeMathStuff.ipynb)
 
-📁 `cryptoInvesting/`
+A collection of computational mathematics experiments and visualizations.
 
-Analyze historical cryptocurrency data and compare multiple dollar-cost averaging investment strategies.
-
-**Highlights**
-- Historical price analysis
-- PCA
-- DCA simulations
-- Portfolio comparison
+**Topics:** Pascal's triangle, Euler's identity, parameterized Gaussian functions, special-relativity time dilation, complex eigenvalues, mathematical art
 
 ---
 
-## Denoising Signals
+## Machine Learning and Data Analysis
 
-📁 `denoisingSignals/`
+### [Clustering](clustering/MasPy_clustering.ipynb)
 
-Explore common signal denoising techniques using synthetic and real-world datasets.
+Processes atmospheric cloud data and combines dimensionality reduction with unsupervised learning to reveal structure in a high-dimensional dataset.
 
-**Highlights**
-- Running mean filters
-- Gaussian smoothing
-- Median filtering
-- Biomedical signals
+**Topics:** normalization, covariance matrices, principal component analysis, t-SNE, k-means clustering, density estimation
 
----
+### [Exploring Cryptocurrency Investments](cryptoInvesting/MasPy_cryptoInvesting.ipynb)
 
-## Descriptive Statistics Without NumPy
+Retrieves historical cryptocurrency prices, examines shared market structure, and simulates dollar-cost-averaging strategies.
 
-📁 `descriptivesWithoutNumpy/`
-
-Implement descriptive statistics from scratch to better understand the underlying mathematics.
-
-**Highlights**
-- Mean
-- Median
-- Mode
-- Standard deviation
+**Topics:** time-series data, feature aggregation, PCA, correlation, investment simulation, dollar-cost averaging
 
 ---
 
-## Entropy of English
+## Signal Processing
 
-📁 `entropyEnglish/`
+### [Denoising Noisy Signals](denoisingSignals/MasPy_denoising.ipynb)
 
-Apply information theory to English text by measuring letter frequencies and Shannon entropy.
+Compares several approaches for smoothing and repairing noisy synthetic and biomedical signals.
 
-**Highlights**
-- Letter frequency analysis
-- Shannon entropy
-- Conditional entropy
-- Word clouds
+**Topics:** running-mean filtering, Gaussian convolution, median filtering, spike removal, EKG denoising, highlighted plot regions
+
+### [The Colorful Rainbow of Noise](colorfulRainbowOfNoise/MasPy_colorNoise.ipynb)
+
+Generates different noise colors and compares their time-domain, frequency-domain, and audio characteristics.
+
+**Topics:** white noise, Brownian noise, pink noise, blue noise, Fourier spectra, audio generation
+
+### [Spectral Analysis](spectralAnalysis/MasPy_spectralAnalysis.ipynb)
+
+Studies the frequency content of an autoregressive signal using both manual and library-based spectral methods.
+
+**Topics:** autoregressive processes, discrete Fourier transform, FFT, zero-padding, Welch's method, spectrograms
+
+### [Time-Series Filtering](timeSeriesFiltering/MasPy_TimeSeriesFiltering.ipynb)
+
+Designs and evaluates filters for noisy time-series data in both the time and frequency domains.
+
+**Topics:** notch filtering, line-noise removal, FIR high-pass filters, IIR low-pass filters, filter response, spectral inspection
+
+### [Time-Frequency Analysis of EEG Data](timeFrequencyAnalysis/MasPy_timeFreqEEG.ipynb)
+
+Constructs Morlet wavelets and applies wavelet convolution to EEG data to create a time-frequency power map.
+
+**Topics:** real and complex Morlet wavelets, wavelet families, FFT convolution, EEG analysis, time-frequency decomposition
 
 ---
 
-More scientific computing projects will be added as the repository grows.
+## Dynamical Systems and Neuroscience
+
+### [Simulate a Brain Circuit](simulateBrainCircuit/MasPy_simulateBrainCircuit.ipynb)
+
+Implements an Izhikevich-style spiking-neuron model and scales it from one neuron to a mixed excitatory-inhibitory network.
+
+**Topics:** computational neuroscience, membrane dynamics, spiking neurons, neural populations, excitation and inhibition, raster plots
+
+### [State-Space Trajectories via PCA](stateSpaceTrajectories/MasPy_stateSpaceTrajectory.ipynb)
+
+Uses neural population recordings and PCA to represent changing brain activity as low-dimensional trajectories through state space.
+
+**Topics:** neural data cleaning, covariance matrices, PCA, dimensionality reduction, state-space visualization, temporal trajectories
+
+---
+
+## Scientific Visualization and Python Practice
+
+### [Animate Data](animations/MasPy_animations.ipynb)
+
+Creates mathematical animations with Plotly and Matplotlib.
+
+**Topics:** complex Morlet wavelets, animated phase changes, Möbius transformations, prime-number visualization
+
+### [Text Search and Replace](textSearchReplace/MasPy_TextReplace.ipynb)
+
+Processes caption text by removing formatting, searching and replacing word patterns, writing cleaned output, and testing the readability of scrambled words.
+
+**Topics:** file handling, regular expressions, string processing, text cleaning, word transformation
+
+### [Sierpiński Triangle](sierpinski_triangle.ipynb)
+
+Generates a Sierpiński triangle with the chaos game and a compact iterative implementation.
+
+**Topics:** fractals, stochastic iteration, geometric visualization
+
+---
+
+## Technology
+
+The notebooks use tools from the scientific Python ecosystem, including:
+
+- Python and Jupyter Notebook
+- NumPy and pandas
+- SciPy and statsmodels
+- Matplotlib, Plotly, and seaborn
+- scikit-learn
+- SymPy
+- lmfit
+
+## Running the Notebooks
+
+Clone the repository and open it in JupyterLab or VS Code:
+
+```bash
+git clone https://github.com/jpstayfocus/scientific-projects-py.git
+cd scientific-projects-py
+python -m venv .venv
+```
+
+Activate the environment and install the libraries required by the notebook you want to run. Some notebooks download public datasets or use external data files. A few retain Google Colab upload cells and may need a small path adjustment when run locally.
+
+## Notes
+
+These notebooks are learning-focused scientific explorations. They are intended to demonstrate concepts, implementations, experimentation, and visualization rather than provide production-ready packages or financial, medical, or scientific advice.
